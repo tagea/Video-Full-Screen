@@ -4,4 +4,4 @@
 
 При проигрывании видео запускается аудио, для каждого видео подгружается своя аудио-дорожка
 
-Web-версия [Relaxing page]()
+Web-версия [Relaxing page](https://tagea.github.io/Video-Full-Screen/)
