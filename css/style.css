@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+html{
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+    display: flex;
+    flex-flow: column;
+    min-height: 100%;
+}
+body{
+    flex: auto;
+    display: flex;
+    flex-flow: column;
+    color: #d9d9d9;
+}
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+h1{
+    background-color: rgba(46, 46, 46, 0.57);
+    padding: 20px 0;
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+main{
+    flex: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+main:hover .controls{
+    display: block;
+}
+.controls{
+   cursor: pointer;
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    z-index: 2;
+    padding: 20px;
+    display: none;
+    opacity: 0.6;
+}
+.controls:hover{
+    opacity: 1;
+}
+.stop-play{
+    background-image: url(../img/play.png);
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+.video-back{
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+}
+.audio-back{
+    position: relative;
+    z-index: 2;
+}
+.footer{
+    z-index: 2;
+    padding: 10px;
+}
